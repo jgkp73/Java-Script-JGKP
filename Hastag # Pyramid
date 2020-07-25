@@ -1,0 +1,19 @@
+//for loop action
+
+//string +
+
+//Step one do first 4 line
+var hashtag = "#"
+for (var i = 0 ; i < 5; i++){
+document.write(hashtag)
+document.write("</br>")
+hashtag += "#"
+}
+
+ for (var i = 0; i <4; i++){
+  for(var j = 0; j <4-i; j++){
+    document.write("#")
+  }
+  
+  document.write("</br>")
+}
